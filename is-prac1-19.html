@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>演習１－１９</title>
+	</head>
+	<body>
+		<h1>演習１－１９</h1>
+		<script type="text/javascript">
+		<!--
+		var str = prompt("何か文字を入力してください\n終了するときは<q>または<Q>を入力してください", "");
+		console.log(str);
+		if (str != null)
+		{
+			console.log(str.charCodeAt(0));
+			a = str.charCodeAt(0);
+			if (a >= 0x41 && a <= 0x5A)
+			{
+//				console.log("i am here.");
+				// if alphabetical letter, covert to lower-case letter
+				a |= 0x20;
+				console.log(a);
+//				console.log("A");
+//				console.log("a");
+			}
+			switch (a)
+			{
+			case "A":
+			case "a":
+				b = '◎'
+				//alert("◎");
+				break;
+			case 'B':
+			case 'b':
+				b = '○'
+				//alert("○");
+				break;
+			case 'C':
+			case 'c':
+				b = '△';
+				//alert("△");
+				break;
+			case 'Q':
+			case 'q':
+				break;
+			default:
+				b = '×'
+				//alert("×");
+				break;	
+			}
+			alert(b);
+		}
+		//-->
+		</script>
+	</body>
+</html>
